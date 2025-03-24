@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASIC CALCULATOR</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <script src="asset/script/vendor.js" defer></script>
+    <script src="asset/script/app.js" defer></script>
+
+    <!-- Relationship of defer with async in importing script-->
+
+    <!-- <script src="asset/script/app.js"> </script> -->
+</head>
+<body>
+    <div class="header">
+        <h1>The Unconvectional Calculator</h1>
+    </div>
+
+    <div class="box" id="calculator">
+        <input type="number" id="input-number">
+        <div>
+            <button type="button" id="btn-add">+</button>
+            <button type="button" id="btn-subtract">-</button>
+            <button type="button" id="btn-divide">/</button>
+            <button  type="button" id="btn-multiply">*</button>
+        </div>
+    </div>
+
+    <div class="box" id="results">
+        <h2 id="current-calculation">0</h2>
+        <p id="current-result">Result:0</p>
+    </div>
+</body>
+</html>
+
